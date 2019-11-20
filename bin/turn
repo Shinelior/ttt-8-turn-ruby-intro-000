@@ -6,8 +6,7 @@ puts "Welcome to Tic Tac toe!"
 display_board(board)
 turn(board)
 def turn(board)
-  
-  puts "please enter 1-9 : "
+ puts "please enter 1-9 : "
   
   r=gets.chomp
   input_to_index(r)
