@@ -35,10 +35,10 @@ end
 
  def turn(board)
  puts "please enter 1-9 : "
-  board[index]=""
+  
   r=gets.chomp
-  input_to_index(r)
-  n=valid_move?(board, index)
+  index=input_to_index(r)
+  valid_move?(board, index)
   if n == true
      puts "please enter X or O"
      t=gets.chomp
