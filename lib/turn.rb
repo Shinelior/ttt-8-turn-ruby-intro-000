@@ -38,7 +38,7 @@ end
   
   r=gets.chomp
   index=input_to_index(r)
-  
+   valid_move(board,index)
   if n == true
      puts "please enter X or O"
      t=gets.chomp
