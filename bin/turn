@@ -27,7 +27,7 @@ def turn(board)
 end     
 
   
-  
+turn(board)  
       
  
  
