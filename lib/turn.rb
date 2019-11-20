@@ -49,7 +49,7 @@ def turn(board)
     
   else
     until n==true
-         puts  " this place is occupied"
+         puts "this place is occupied"
          turn(board)
      end 
   end
