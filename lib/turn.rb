@@ -28,7 +28,7 @@ end
   
 end
 
- def move(board, index,t)
+ def move(board, index,t="X")
      board[index]=t
      return board
  end
@@ -39,16 +39,16 @@ end
   r=gets.chomp
   index=input_to_index(r)
    
-  if valid_move(board,index)== true
-     puts "please enter X or O"
+  if valid_move!(board,index)== true
+     
      
      move(board, index)  
      display_board(board) 
-     turn(board)
+     
     
   else
-    until n==true
-         puts "this place is occupied"
+    
+         
          turn(board)
      end 
   end
