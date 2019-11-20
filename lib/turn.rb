@@ -39,7 +39,7 @@ end
   r=gets.chomp
   index=input_to_index(r)
    
-  if valid_move!(board,index)== true
+  if valid_move?(board,index)== true
      
      
      move(board, index)  
